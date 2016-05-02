@@ -1,0 +1,25 @@
+version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,file2,description
+20130801,0,Y,1,0,168.55000000000001,169.75,-53.0,-52.125,Y,0,0,Y,9,8,3d,none,0.016543196342391032,llgrid,step,2004-12-23,-1.0,2004-12-23,0,0,grid_mq_P0_L1.csv,,"Event: Macquarie Plate earthquake,  23 December 2004
+Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
+Version: Model qF7e, 12 May 2008
+"
+20130801,0,Y,1,1,158.80000000000001,162.69999999999999,-52.5,-48.25,Y,0,0,Y,105,137,3d,none,1.9044780749277657,llgrid,step,2004-12-23,-1.0,2004-12-23,0,0,grid_mq_P1_SL2.csv,,"Event: Macquarie Plate earthquake,  23 December 2004
+Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
+Version: Model qF7e, 12 May 2008
+"
+20130801,0,Y,1,3,165.40000000000001,166.75,-51.375,-50.125,Y,0,0,Y,10,11,3d,none,0.03813569428645819,llgrid,step,2004-12-23,-1.0,2004-12-23,0,0,grid_mq_P2_L1.csv,,"Event: Macquarie Plate earthquake,  23 December 2004
+Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
+Version: Model qF7e, 12 May 2008
+"
+20130801,0,Y,1,4,178.30000000000001,179.19999999999999,-50.125,-49.25,Y,0,0,Y,7,8,3d,none,0.0024734469939135546,llgrid,step,2004-12-23,-1.0,2004-12-23,0,0,grid_mq_P3_L1.csv,,"Event: Macquarie Plate earthquake,  23 December 2004
+Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
+Version: Model qF7e, 12 May 2008
+"
+20130801,0,Y,1,5,166.0,176.19999999999999,-48.5,-40.125,Y,0,0,Y,69,68,3d,none,0.015136443712989521,llgrid,step,2004-12-23,-1.0,2004-12-23,0,0,grid_mq_P4_L1.csv,,"Event: Macquarie Plate earthquake,  23 December 2004
+Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
+Version: Model qF7e, 12 May 2008
+"
+20130801,0,Y,1,6,178.59999999999999,179.5,-48.125,-47.375,Y,0,0,Y,7,7,3d,none,0.0016016908718601102,llgrid,step,2004-12-23,-1.0,2004-12-23,0,0,grid_mq_P5_L1.csv,,"Event: Macquarie Plate earthquake,  23 December 2004
+Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
+Version: Model qF7e, 12 May 2008
+"

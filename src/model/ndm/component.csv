@@ -1,0 +1,4 @@
+version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,file2,description
+20000101,20130801,N,0,0,165,180,-48,-32,N,0,0,Y,151,161,horizontal,none,0.056,llgrid,velocity,2000-01-01,0,2001-01-01,1,0,grid_igns1998b.csv,,Secular deformation model derived from GNS model 1998b
+20130801,0,N,1,0,158,194,-58,-25,N,0,0,Y,73,67,horizontal,none,0.062,llgrid,velocity,2000-01-01,0,2001-01-01,1,0,grid_nuvel1a_eez.csv,,Secular deformation model derived from NUVEL-1A rotation rates
+20130801,0,N,1,1,165.5,179.5,-48,-33,Y,0,0,Y,141,151,horizontal,none,0.062,llgrid,velocity,2000-01-01,0,2001-01-01,1,0,grid_igns2011_nz.csv,,Secular deformation model derived from GNS model 2011 V4

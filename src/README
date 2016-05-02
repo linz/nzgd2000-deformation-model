@@ -1,0 +1,12 @@
+This is version 20150101 of the deformation model
+
+This version does change any models, but extends the existing models to 
+cover New Zealands Exclusive Economic Zone.
+
+See NZGD2000DeformationModelFormat.pdf in the documentation directory for 
+details of the deformation model format and how it is calculated.  
+
+The tools directory contains a python program CalcDeformation.py which can 
+be used to calculate the deformation model at any valid time and and 
+location.  The usage of this program is described in the calcdeformation.pdf 
+file in the documentations directory. 

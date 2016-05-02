@@ -1,0 +1,17 @@
+version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,file2,description
+20130801,0,Y,1,0,168.09999999999999,176.05000000000001,-46.75,-40.375,Y,0,0,Y,54,52,3d,none,1.484683690815701,llgrid,step,2010-09-04,-1.0,2010-09-04,0,0,grid_c1_L1.csv,,"Event: Darfield earthquake, 4 Sep 2010
+Source model: Geodetic source model, based on GPS and differential InSAR (ALOS, Envisat) data; elastic half-space assumption
+Version: Model 8.5, 20 May 2012   Revised this file 4 Sep 2012 to remove extra lines at the end of the file (lines 954 onwards)
+"
+20130801,0,Y,1,1,171.09999999999999,173.27500000000001,-44.34375,-42.8125,Y,0,0,Y,59,50,3d,none,3.1852152013915513,llgrid,step,2010-09-04,-1.0,2010-09-04,0,0,grid_c1_L2.csv,,"Event: Darfield earthquake, 4 Sep 2010
+Source model: Geodetic source model, based on GPS and differential InSAR (ALOS, Envisat) data; elastic half-space assumption
+Version: Model 8.5, 20 May 2012   Revised this file 4 Sep 2012 to remove extra lines at the end of the file (lines 954 onwards)
+"
+20130801,0,Y,1,2,171.625,172.72187500000001,-43.8984375,-43.25,Y,0,0,Y,118,84,3d,none,3.1852152013915513,llgrid,step,2010-09-04,-1.0,2010-09-04,0,0,grid_c1_L3.csv,,"Event: Darfield earthquake, 4 Sep 2010
+Source model: Geodetic source model, based on GPS and differential InSAR (ALOS, Envisat) data; elastic half-space assumption
+Version: Model 8.5, 20 May 2012   Revised this file 4 Sep 2012 to remove extra lines at the end of the file (lines 954 onwards)
+"
+20130801,0,Y,1,3,171.8125,172.52734375,-43.697265625,-43.423828125,Y,0,0,Y,306,141,3d,none,3.646599380972608,llgrid,step,2010-09-04,-1.0,2010-09-04,0,0,grid_c1_L4.csv,,"Event: Darfield earthquake, 4 Sep 2010
+Source model: Geodetic source model, based on GPS and differential InSAR (ALOS, Envisat) data; elastic half-space assumption
+Version: Model 8.5, 20 May 2012   Revised this file 4 Sep 2012 to remove extra lines at the end of the file (lines 954 onwards)
+"

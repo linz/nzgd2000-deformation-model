@@ -1,0 +1,17 @@
+version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,file2,description
+20140201,0,N,1,0,170.94999999999999,176.5,-43.875,-39.25,Y,0,0,Y,38,38,3d,none,0.32764540408080517,llgrid,step,2013-08-16,0,2013-08-16,1.0,0,grid_lg_20130816_L1.csv,,"Event: Mw 6.6 Lake Grassmere earthquake, 16 August 2013
+Source model: Geodetic source model, based on TerraSAR-X, Radarsat-2, and GPS; elastic half-space assumption
+Version: 24 January 2014
+"
+20140201,0,N,1,1,173.38749999999999,175.0,-42.28125,-41.09375,Y,0,0,Y,44,39,3d,none,0.40173258675694845,llgrid,step,2013-08-16,0,2013-08-16,1.0,0,grid_lg_20130816_L2.csv,,"Event: Mw 6.6 Lake Grassmere earthquake, 16 August 2013
+Source model: Geodetic source model, based on TerraSAR-X, Radarsat-2, and GPS; elastic half-space assumption
+Version: 24 January 2014
+"
+20140201,0,N,1,2,173.80937499999999,174.53125,-41.9453125,-41.4609375,Y,0,0,Y,78,63,3d,none,0.4152201597955901,llgrid,step,2013-08-16,0,2013-08-16,1.0,0,grid_lg_20130816_L3.csv,,"Event: Mw 6.6 Lake Grassmere earthquake, 16 August 2013
+Source model: Geodetic source model, based on TerraSAR-X, Radarsat-2, and GPS; elastic half-space assumption
+Version: 24 January 2014
+"
+20140201,0,N,1,3,174.03437500000001,174.34609374999999,-41.806640625,-41.60546875,Y,0,0,Y,134,104,3d,none,0.4156825200673781,llgrid,step,2013-08-16,0,2013-08-16,1.0,0,grid_lg_20130816_L4.csv,,"Event: Mw 6.6 Lake Grassmere earthquake, 16 August 2013
+Source model: Geodetic source model, based on TerraSAR-X, Radarsat-2, and GPS; elastic half-space assumption
+Version: 24 January 2014
+"

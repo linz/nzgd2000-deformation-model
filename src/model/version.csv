@@ -1,0 +1,18 @@
+version,release_date,reverse_patch,reason
+20000101,2000-01-01,N,"National deformation model - initial version"
+20130801,2013-08-01,Y,"Update of national deformation model.
+Reverse patches for the following events:
+    Secretary Island, 2003
+    Macquarie Island, 2004
+    George Sound, 2007
+    Dusky Sound, 2009
+    Darfield (Christchurch), September 2010
+    Christchurch, February 2011
+    Christchurch, June 2011
+    Christchurch, December 2011
+"
+20140201,2014-02-01,N,"Forward patches for events:
+    Cook Strait, 17 July 2013
+    Lake Grassmere, 16 August 2013
+"
+20150101,2015-01-01,N,"Extends existing models to cover the New Zealand Exclusive Economic Zone"
