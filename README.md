@@ -1,2 +1,5 @@
 # nzgd2000-deformation-model
-NZGD2000 deformation
+
+The NZGD2000 deformation model is used to transform coordinates 
+between ITRF96 and NZGD2000.
+
