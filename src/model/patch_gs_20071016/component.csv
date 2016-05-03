@@ -1,13 +1,13 @@
-version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,file2,description
-20130801,0,Y,1,0,166.0,171.25,-47.0,-43.75,Y,0,0,Y,36,27,3d,none,0.22779376009138155,llgrid,step,2007-10-16,-1.0,2007-10-16,0,0,grid_gs_L1.csv,,"Event: Fiordland (George Sound) earthquake,  16 October 2007
+version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,description
+20130801,0,Y,1,0,166.0,171.25,-47.0,-43.75,Y,0,0,Y,36,27,3d,none,0.22779376009138155,llgrid,step,2007-10-16,-1.0,2007-10-16,0,0,grid_gs_L1.csv,"Event: Fiordland (George Sound) earthquake,  16 October 2007
 Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
 Version: Model 002, 22 Apr 2008
 "
-20130801,0,Y,1,1,166.67500000000001,168.28749999999999,-45.40625,-44.28125,Y,0,0,Y,44,37,3d,none,0.2763783130526187,llgrid,step,2007-10-16,-1.0,2007-10-16,0,0,grid_gs_L2.csv,,"Event: Fiordland (George Sound) earthquake,  16 October 2007
+20130801,0,Y,1,1,166.67500000000001,168.28749999999999,-45.40625,-44.28125,Y,0,0,Y,44,37,3d,none,0.2763783130526187,llgrid,step,2007-10-16,-1.0,2007-10-16,0,0,grid_gs_L2.csv,"Event: Fiordland (George Sound) earthquake,  16 October 2007
 Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
 Version: Model 002, 22 Apr 2008
 "
-20130801,0,Y,1,2,167.08750000000001,167.58437499999999,-45.015625,-44.6171875,Y,0,0,Y,54,52,3d,none,0.2771654259013021,llgrid,step,2007-10-16,-1.0,2007-10-16,0,0,grid_gs_L3.csv,,"Event: Fiordland (George Sound) earthquake,  16 October 2007
+20130801,0,Y,1,2,167.08750000000001,167.58437499999999,-45.015625,-44.6171875,Y,0,0,Y,54,52,3d,none,0.2771654259013021,llgrid,step,2007-10-16,-1.0,2007-10-16,0,0,grid_gs_L3.csv,"Event: Fiordland (George Sound) earthquake,  16 October 2007
 Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
 Version: Model 002, 22 Apr 2008
 "
