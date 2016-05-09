@@ -7,6 +7,8 @@ The deformation model comprises a set of .CSV files defining components such as
 the national velocity model, and the "patches" which represent deformation due
 to earthquakes.  When it is published these are compiled into a single .zip file. 
 
+The official releases are published at http://apps.linz.govt.nz/ftp/geodetic/
+
 The files and directory structure of the zip file are held in the .src directory
 of this repository.  
 
