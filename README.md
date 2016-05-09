@@ -1,10 +1,20 @@
 # nzgd2000-deformation-model
 
 The NZGD2000 deformation model is used to transform coordinates 
-between ITRF96 and NZGD2000.
+between ITRF96 and NZGD2000.  
 
-The src dirctory contains the actual deformation model.  It is published in zip format
-as described in [documentation/NZGD2000DeformationModelFormat.docx](./documentation/NZGD2000DeformationModelFormat.docx).  The published zip
-file also contains a reference implementation in python.  This source code is in the 
+The deformation model comprises a set of .CSV files defining components such as 
+the national velocity model, and the "patches" which represent deformation due
+to earthquakes.  When it is published these are compiled into a single .zip file. 
 
-[linz/python-linz-deformationmodel](../python-linz-deformationmodel) repository.
+The files and directory structure of the zip file are held in the .src directory
+of this repository.  
+
+
+The zip file contains [documentation](./src/documentation/NZGD2000DeformationModelFormat.pdf) 
+describing the components of the model and how the deformation is
+calculated from them for any given time or place.
+
+The zip file also contains a reference implementation in python that 
+can be used to calculate the deformation and apply it to coordinates.
+This source code is in the [linz/python-linz-deformationmodel](https://github.com/linz/python-linz-deformationmodel) repository.
