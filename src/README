@@ -1,6 +1,6 @@
 This is version 20150101 of the deformation model
 
-This version does change any models, but extends the existing models to 
+This version does not change the deformation model, but extends the it to 
 cover New Zealands Exclusive Economic Zone.
 
 See NZGD2000DeformationModelFormat.pdf in the documentation directory for 
