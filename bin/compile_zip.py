@@ -7,7 +7,7 @@ import re
 import shutil
 import tempfile
 from StringIO import StringIO
-from zipfile import ZipFile
+from zipfile import ZipFile, ZIP_DEFLATED
 
 
 def get_source_modules(repo,toolsdir,files=None):
@@ -97,7 +97,7 @@ try:
         raise RuntimeError('Invalid version {0} - must be yyyymmdd'.format(version))
 
     zipfile='nzgd2000_deformation_'+version+'_full.zip'
-    z=ZipFile(zipfile,'w')
+    z=ZipFile(zipfile,'w',ZIP_DEFLATED)
     add_tree_to_zip(os.path.join(basedir,'src'),z)
     add_tree_to_zip(toolssrc,z)
 finally:
