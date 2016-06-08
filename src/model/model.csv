@@ -1,32 +1,13 @@
 submodel,version_added,version_revoked,reverse_patch,description
 ndm,20000101,0,N,Secular deformation model derived from GNS model 2011 V4
-patch_c1_20100904,20130801,0,Y,"Event: Darfield earthquake, 4 Sep 2010
-Source model: Geodetic source model, based on GPS and differential InSAR (ALOS, Envisat) data; elastic half-space assumption
-Version: Model 8.5, 20 May 2012   Revised this file 4 Sep 2012 to remove extra lines at the end of the file (lines 954 onwards)"
-patch_c2_20110222,20130801,0,Y,"Event: Christchurch February earthquake, 22 February 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK, ALOS) data; elastic half-space assumption
-Version: Model 3.21, 9 Dec 2011"
-patch_c3_20110613,20130801,0,Y,"Event: Christchurch June earthquake, 13 June 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK, TSX, Envisat) data; elastic half-space assumption
-Version: Model 0.4, 14 Dec 2011"
-patch_c4_20111223,20130801,0,Y,"Event: Christchurch earthquake, 23 December 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK) data; elastic half-space assumption
-Version: Model 0.2, 17 April 2012"
-patch_cs_20130721,20140201,0,N,"Event: Mw 6.6 Cook Strait earthquake, 21 July 2013
-Source model: Geodetic source model, based on GPS; elastic half-space assumption
-Version: 24 January 2014"
-patch_ds_20090715,20130801,0,Y,"Event: Dusky Sound (Fiordland) earthquake, 15 July 2009
-Source model: Geodetic source model, based on GPS and differential InSAR (ALOS) data; elastic half-space assumption
-Version: Model CP3, August 2010"
-patch_gs_20071016,20130801,0,Y,"Event: Fiordland (George Sound) earthquake,  16 October 2007
-Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
-Version: Model 002, 22 Apr 2008"
-patch_lg_20130816,20140201,0,N,"Event: Mw 6.6 Lake Grassmere earthquake, 16 August 2013
-Source model: Geodetic source model, based on TerraSAR-X, Radarsat-2, and GPS; elastic half-space assumption
-Version: 24 January 2014"
-patch_mq_20041223,20130801,0,Y,"Event: Macquarie Plate earthquake,  23 December 2004
-Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
-Version: Model qF7e, 12 May 2008"
-patch_si_20030821,20130801,0,Y,"Event: Secretary Island (Fiordland) earthquake,  21 August 2003
-Source model: Geodetic source model, based on GPS data; elastic half-space assumption; uniform slip on a rectangular fault plane
-Version: Model 205, 28 November 2003"
+patch_c1_20100904,20130801,0,Y,Darfield earthquake
+patch_c2_20110222,20130801,0,Y,Christchurch February earthquake
+patch_c3_20110613,20130801,0,Y,Christchurch June earthquake
+patch_c4_20111223,20130801,0,Y,Christchurch earthquake
+patch_ch_20160214,20160701,0,Y,Christchurch Valentines Day earthquake
+patch_cs_20130721,20140201,0,Y,Mw 6.6 Cook Strait earthquake
+patch_ds_20090715,20130801,0,Y,Dusky Sound (Fiordland) earthquake
+patch_gs_20071016,20130801,0,Y,Fiordland (George Sound) earthquake
+patch_lg_20130816,20140201,0,Y,Mw 6.6 Lake Grassmere earthquake
+patch_mq_20041223,20130801,0,Y,Macquarie Plate earthquake
+patch_si_20030821,20130801,0,Y,Secretary Island (Fiordland) earthquake

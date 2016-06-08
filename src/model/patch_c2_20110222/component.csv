@@ -1,17 +1,5 @@
 version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,description
-20130801,0,Y,1,0,170.80000000000001,173.80000000000001,-44.5,-42.375,Y,0,0,Y,21,18,3d,none,0.1412543174937775,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L1.csv,"Event: Christchurch February earthquake, 22 February 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK, ALOS) data; elastic half-space assumption
-Version: Model 3.21, 9 Dec 2011
-"
-20130801,0,Y,1,1,172.0,173.38749999999999,-44.0625,-43.03125,Y,0,0,Y,38,34,3d,none,0.4291659891079251,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L2.csv,"Event: Christchurch February earthquake, 22 February 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK, ALOS) data; elastic half-space assumption
-Version: Model 3.21, 9 Dec 2011
-"
-20130801,0,Y,1,2,172.41249999999999,172.984375,-43.75,-43.3515625,Y,0,0,Y,62,52,3d,none,0.49952225729671407,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L3.csv,"Event: Christchurch February earthquake, 22 February 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK, ALOS) data; elastic half-space assumption
-Version: Model 3.21, 9 Dec 2011
-"
-20130801,0,Y,1,3,172.56015625000001,172.83437499999999,-43.630859375,-43.474609375,Y,0,0,Y,118,81,3d,none,0.5107863215981788,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L4.csv,"Event: Christchurch February earthquake, 22 February 2011
-Source model: Geodetic source model, based on GPS and differential InSAR (CSK, ALOS) data; elastic half-space assumption
-Version: Model 3.21, 9 Dec 2011
-"
+20130801,0,Y,1,0,170.80000000000001,173.80000000000001,-44.5,-42.375,Y,0,0,Y,21,18,3d,none,0.14125,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L1.csv,Christchurch February earthquake
+20130801,0,Y,1,1,172.0,173.38749999999999,-44.0625,-43.03125,Y,0,0,Y,38,34,3d,none,0.42917,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L2.csv,Christchurch February earthquake
+20130801,0,Y,1,2,172.41249999999999,172.984375,-43.75,-43.3515625,Y,0,0,Y,62,52,3d,none,0.49952,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L3.csv,Christchurch February earthquake
+20130801,0,Y,1,3,172.56015625000001,172.83437499999999,-43.630859375,-43.474609375,Y,0,0,Y,118,81,3d,none,0.51079,llgrid,step,2011-02-22,-1.0,2011-02-22,0,0,grid_c2_L4.csv,Christchurch February earthquake

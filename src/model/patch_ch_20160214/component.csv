@@ -1,0 +1,5 @@
+version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,description
+20160701,0,Y,1,0,171.69999999999999,173.65000000000001,-44.125,-42.875,Y,0,0,Y,14,11,3d,none,0.18187,llgrid,step,2016-02-14,-1.0,2016-02-14,0,0,grid_ch_20160214_L1.csv,Christchurch Valentines Day earthquake
+20160701,0,Y,1,1,172.22499999999999,173.27500000000001,-43.875,-43.0625,Y,0,0,Y,29,27,3d,none,0.19338,llgrid,step,2016-02-14,-1.0,2016-02-14,0,0,grid_ch_20160214_L2.csv,Christchurch Valentines Day earthquake
+20160701,0,Y,1,2,172.55312499999999,172.97499999999999,-43.609375,-43.3203125,Y,0,0,Y,46,38,3d,none,0.27459,llgrid,step,2016-02-14,-1.0,2016-02-14,0,0,grid_ch_20160214_L3.csv,Christchurch Valentines Day earthquake
+20160701,0,Y,1,3,172.67265624999999,172.85546875,-43.525390625,-43.408203125,Y,0,0,Y,79,61,3d,none,0.27754,llgrid,step,2016-02-14,-1.0,2016-02-14,0,0,grid_ch_20160214_L4.csv,Christchurch Valentines Day earthquake
