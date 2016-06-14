@@ -40,19 +40,30 @@ def get_source_modules(repo,toolsdir,files=None):
             with open(tgtfile,'wb') as tf:
                 tf.write(z.read(n))
 
-def create_python_program(module,toolsdir):
-    if not os.path.exists(toolsdir+'/LINZ/DeformationModel/'+module+'.py'):
+def create_python_program(module,toolsdir,basemodule='LINZ.DeformationModel',progname=None):
+    basedir=basemodule.replace('.','/')
+    if not os.path.exists(toolsdir+'/'+basedir+'/'+module+'.py'):
         raise RuntimeError('Cannot find module {0} in LINZ.DeformationModel'.format(module))
+    if not basemodule.startswith('LINZ.'):
+        raise RuntimeError('Can only create programs from LINZ. modules')
+
+    # Create path to LINZ directory, avoiding importing LINZ, as this
+    # may not work if LINZ python modules already installed into python
+    # distribution.
+    basemodule=basemodule[5:]
+
     src='''#!/usr/bin/python
         import sys
         import os.path
-        sys.path.insert(1,os.path.dirname(os.path.abspath(__file__)))
-        from LINZ.DeformationModel import {module}
+        sys.path.insert(1,os.path.join(os.path.dirname(os.path.abspath(__file__)),'LINZ'))
+        from {basemodule} import {module}
         {module}.main()
         '''
     src=src.replace('{module}',module)
+    src=src.replace('{basemodule}',basemodule)
     src=re.sub(r'^\s+','',src,flags=re.MULTILINE)
-    progfile=toolsdir+'/'+module+'.py'
+    progname=module if progname is None else progname
+    progfile=toolsdir+'/'+progname+'.py'
     with open(progfile,'w') as pyf:
         pyf.write(src)
     os.chmod(progfile,0755)
@@ -62,9 +73,12 @@ def build_tools( toolsdir ):
         os.makedirs(toolsdir)
     get_source_modules('python-linz-deformationmodel',toolsdir)
     get_source_modules('python-linz-geodetic',toolsdir,['Ellipsoid.py','ITRF.py'])
-    create_python_program('CalcDeformation',toolsdir)
+    get_source_modules('python-linz-geodeticgrid',toolsdir)
+    create_python_program('CalcDeformation',toolsdir,progname='calcdeformation')
     create_python_program('ITRF_NZGD2000',toolsdir)
     create_python_program('NZGD2000_conversion_grid',toolsdir)
+    create_python_program('LinzDefModelBin',toolsdir,
+                          basemodule='LINZ.Geodetic',progname='build_linzdefmodel')
 
 def add_tree_to_zip( basedir, zf ):
     for d,dirs,files in os.walk(basedir):
