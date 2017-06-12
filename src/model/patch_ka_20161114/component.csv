@@ -11,7 +11,7 @@ version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,m
  Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
  Version: Model 001, 21 February 2017
 "
-20170601,0,Y,3,1,172.1875,175.4125,-43.1875,-41.25,Y,0,0,Y,87,63,horizontal,none,7.40262,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L2_R.csv,"Event: Kaikoura earthquake,  14 November 2016
+20170601,0,Y,3,1,172.4875,174.925,-42.875,-41.25,Y,0,0,Y,66,53,horizontal,none,7.40262,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L2_R.csv,"Event: Kaikoura earthquake,  14 November 2016
  Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
  Version: Model 001, 21 February 2017
 "
@@ -19,11 +19,11 @@ version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,m
  Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
  Version: Model 001, 21 February 2017
 "
-20170601,0,Y,3,3,172.571875,173.678125,-42.140625,-41.421875,Y,0,0,Y,119,93,horizontal,none,4.37758,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_01.csv,"Event: Kaikoura earthquake,  14 November 2016
+20170601,0,Y,3,3,172.6,173.678125,-42.140625,-41.421875,Y,0,0,Y,116,93,horizontal,none,4.37758,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_01.csv,"Event: Kaikoura earthquake,  14 November 2016
  Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
  Version: Model 001, 21 February 2017
 "
-20170601,0,Y,3,4,173.678125,174.775,-42.8671875,-42.140625,Y,0,0,Y,118,94,horizontal,none,8.62653,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_02.csv,"Event: Kaikoura earthquake,  14 November 2016
+20170601,0,Y,3,4,173.678125,174.7375,-42.84375,-42.140625,Y,0,0,Y,114,91,horizontal,none,8.62653,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_02.csv,"Event: Kaikoura earthquake,  14 November 2016
  Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
  Version: Model 001, 21 February 2017
 "
