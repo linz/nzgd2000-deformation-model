@@ -1,213 +1,217 @@
 version_added,version_revoked,reverse_patch,component,priority,min_lon,max_lon,min_lat,max_lat,spatial_complete,min_date,max_date,time_complete,npoints1,npoints2,displacement_type,error_type,max_displacement,spatial_model,time_function,time0,factor0,time1,factor1,decay,file1,description
-20170601,0,N,1,1,165.85,179.5,-48.125,-34.0,Y,0,0,Y,92,114,horizontal,none,0.67114,llgrid,step,2016-11-14,0,2016-11-14,1.0,0,grid_ka_20161114_HP0_L1_F.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,N,1,1,165.85,179.05,-47.625,-34.0,Y,0,0,Y,89,110,horizontal,none,0.55557,llgrid,step,2016-11-14,0,2016-11-14,1.0,0,grid_ka_20161114_H_L1_F.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,N,1,2,171.925,175.4875,-43.3125,-40.8125,Y,0,0,Y,96,81,horizontal,none,0.67114,llgrid,step,2016-11-14,0,2016-11-14,1.0,0,grid_ka_20161114_HP0_L2_F.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,N,1,2,171.925,175.45,-43.34375,-40.8125,Y,0,0,Y,95,82,horizontal,none,0.59842,llgrid,step,2016-11-14,0,2016-11-14,1.0,0,grid_ka_20161114_H_L2_F.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,N,2,1,182.65,184.3,-44.75,-43.25,Y,0,0,Y,12,13,horizontal,none,0.00751,llgrid,step,2016-11-14,0,2016-11-14,1.0,0,grid_ka_20161114_HP1_L1_F.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,1,172.525,174.925,-42.90625,-41.28125,Y,0,0,Y,65,53,horizontal,none,8.83715,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L2_R.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,1,172.4875,174.925,-42.875,-41.25,Y,0,0,Y,66,53,horizontal,none,7.40262,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L2_R.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,2,172.571875,173.640625,-42.875,-42.1484375,Y,0,0,Y,115,94,horizontal,none,3.78536,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L3_R_00.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,2,172.571875,173.678125,-42.8671875,-42.140625,Y,0,0,Y,119,94,horizontal,none,5.43427,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_00.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,3,172.675,173.640625,-42.1484375,-41.421875,Y,0,0,Y,104,94,horizontal,none,3.25585,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L3_R_01.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,3,172.6,173.678125,-42.140625,-41.421875,Y,0,0,Y,116,93,horizontal,none,4.37758,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_01.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,4,173.640625,174.6625,-42.78125,-42.1484375,Y,0,0,Y,110,82,horizontal,none,7.63175,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L3_R_02.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,4,173.678125,174.7375,-42.84375,-42.140625,Y,0,0,Y,114,91,horizontal,none,8.62653,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_02.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,5,173.640625,174.7,-42.1484375,-41.421875,Y,0,0,Y,114,94,horizontal,none,10.03386,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L3_R_03.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,5,173.678125,174.775,-42.140625,-41.421875,Y,0,0,Y,118,93,horizontal,none,8.02084,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L3_R_03.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,6,172.7828125,173.02890625,-42.69921875,-42.484375,Y,0,0,Y,106,111,horizontal,none,2.90268,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_00.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,6,172.78046875,173.0265625,-42.69921875,-42.517578125,Y,0,0,Y,106,94,horizontal,none,2.98728,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_00.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,7,172.7828125,173.02890625,-42.484375,-42.26953125,Y,0,0,Y,106,111,horizontal,none,0.9058,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_01.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,7,172.78046875,173.0265625,-42.517578125,-42.3359375,Y,0,0,Y,106,94,horizontal,none,1.01888,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_01.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,8,173.02890625,173.275,-42.69921875,-42.484375,Y,0,0,Y,106,111,horizontal,none,3.95003,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_02.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,8,173.0265625,173.27265625,-42.69921875,-42.517578125,Y,0,0,Y,106,94,horizontal,none,4.28628,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_02.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,9,173.02890625,173.275,-42.484375,-42.26953125,Y,0,0,Y,106,111,horizontal,none,2.50015,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_03.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,9,173.0265625,173.27265625,-42.517578125,-42.3359375,Y,0,0,Y,106,94,horizontal,none,3.05005,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_03.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,10,173.275,173.52109375,-42.69921875,-42.484375,Y,0,0,Y,106,111,horizontal,none,1.81653,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_04.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,10,173.27265625,173.51875,-42.69921875,-42.517578125,Y,0,0,Y,106,94,horizontal,none,2.052,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_04.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,11,173.275,173.52109375,-42.484375,-42.26953125,Y,0,0,Y,106,111,horizontal,none,1.46367,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_05.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,11,173.27265625,173.51875,-42.517578125,-42.3359375,Y,0,0,Y,106,94,horizontal,none,2.92885,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_05.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,12,173.275,173.52109375,-42.26953125,-42.0546875,Y,0,0,Y,106,111,horizontal,none,2.30484,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_06.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,12,173.27265625,173.51875,-42.3359375,-42.154296875,Y,0,0,Y,106,94,horizontal,none,2.1322,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_06.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,13,173.275,173.52109375,-42.0546875,-41.83984375,Y,0,0,Y,106,111,horizontal,none,2.26691,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_07.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,13,173.27265625,173.51875,-42.154296875,-41.97265625,Y,0,0,Y,106,94,horizontal,none,2.3213,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_07.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,14,173.52109375,173.7671875,-42.69921875,-42.484375,Y,0,0,Y,106,111,horizontal,none,0.96565,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_08.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,14,173.51875,173.76484375,-42.69921875,-42.517578125,Y,0,0,Y,106,94,horizontal,none,1.24492,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_08.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,15,173.52109375,173.7671875,-42.484375,-42.26953125,Y,0,0,Y,106,111,horizontal,none,4.06338,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_09.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,15,173.51875,173.76484375,-42.517578125,-42.3359375,Y,0,0,Y,106,94,horizontal,none,2.18194,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_09.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,16,173.52109375,173.7671875,-42.26953125,-42.0546875,Y,0,0,Y,106,111,horizontal,none,8.16732,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_10.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,16,173.51875,173.76484375,-42.3359375,-42.154296875,Y,0,0,Y,106,94,horizontal,none,10.13261,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_10.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,17,173.52109375,173.7671875,-42.0546875,-41.83984375,Y,0,0,Y,106,111,horizontal,none,4.90183,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_11.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,17,173.51875,173.76484375,-42.154296875,-41.97265625,Y,0,0,Y,106,94,horizontal,none,7.78076,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_11.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,18,173.52109375,173.7671875,-41.83984375,-41.626953125,Y,0,0,Y,106,110,horizontal,none,1.72952,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_12.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,18,173.51875,173.76484375,-41.97265625,-41.791015625,Y,0,0,Y,106,94,horizontal,none,4.29611,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_12.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,19,173.7671875,174.01328125,-42.484375,-42.26953125,Y,0,0,Y,106,111,horizontal,none,2.77023,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_13.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,19,173.76484375,174.0109375,-42.517578125,-42.3359375,Y,0,0,Y,106,94,horizontal,none,1.24174,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_13.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,20,173.7671875,174.01328125,-42.26953125,-42.0546875,Y,0,0,Y,106,111,horizontal,none,5.85737,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_14.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,20,173.76484375,174.0109375,-42.3359375,-42.154296875,Y,0,0,Y,106,94,horizontal,none,5.14674,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_14.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,21,173.7671875,174.01328125,-42.0546875,-41.83984375,Y,0,0,Y,106,111,horizontal,none,6.74035,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_15.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,21,173.76484375,174.0109375,-42.154296875,-41.97265625,Y,0,0,Y,106,94,horizontal,none,7.78076,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_15.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,22,173.7671875,174.01328125,-41.83984375,-41.626953125,Y,0,0,Y,106,110,horizontal,none,3.70441,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_16.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,22,173.76484375,174.0109375,-41.97265625,-41.791015625,Y,0,0,Y,106,94,horizontal,none,6.126,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_16.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,23,174.01328125,174.259375,-42.26953125,-42.0546875,Y,0,0,Y,106,111,horizontal,none,2.14577,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_17.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,23,174.0109375,174.25703125,-42.154296875,-41.97265625,Y,0,0,Y,106,94,horizontal,none,4.24288,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_17.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,24,174.01328125,174.259375,-42.0546875,-41.83984375,Y,0,0,Y,106,111,horizontal,none,10.24346,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_18.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,24,174.0109375,174.25703125,-41.97265625,-41.791015625,Y,0,0,Y,106,94,horizontal,none,6.95585,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_18.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,25,174.01328125,174.259375,-41.83984375,-41.626953125,Y,0,0,Y,106,110,horizontal,none,6.00919,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_19.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,25,174.0109375,174.25703125,-41.791015625,-41.615234375,Y,0,0,Y,106,91,horizontal,none,4.71777,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_19.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,26,174.259375,174.50078125,-42.0546875,-41.83984375,Y,0,0,Y,104,111,horizontal,none,1.93338,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_20.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,26,174.25703125,174.503125,-41.97265625,-41.791015625,Y,0,0,Y,106,94,horizontal,none,8.92482,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_20.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,2,27,174.259375,174.50078125,-41.83984375,-41.626953125,Y,0,0,Y,104,110,horizontal,none,6.89989,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_H_L4_R_21.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,3,27,174.25703125,174.503125,-41.791015625,-41.615234375,Y,0,0,Y,106,91,horizontal,none,8.43413,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_HP0_L4_R_21.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,1,166.3,179.05,-47.625,-34.25,Y,0,0,Y,86,108,vertical,none,2.61995,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L1.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,1,166.9,179.05,-47.625,-34.0,Y,0,0,Y,82,110,vertical,none,2.70936,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L1.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,2,172.225,174.9625,-43.125,-41.0625,Y,0,0,Y,74,67,vertical,none,4.78023,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L2.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,2,172.15,174.9625,-43.09375,-41.03125,Y,0,0,Y,76,67,vertical,none,5.054,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L2.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,3,172.65625,173.6125,-42.8046875,-42.1171875,Y,0,0,Y,103,89,vertical,none,4.04916,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_00.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,3,172.646875,173.6125,-42.8046875,-42.1171875,Y,0,0,Y,104,89,vertical,none,4.34644,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_00.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,4,172.65625,173.6125,-42.1171875,-41.4375,Y,0,0,Y,103,88,vertical,none,0.31887,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_01.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,4,172.646875,173.6125,-42.1171875,-41.4296875,Y,0,0,Y,104,89,vertical,none,0.26431,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_01.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,5,173.6125,174.56875,-42.8046875,-42.1171875,Y,0,0,Y,103,89,vertical,none,4.81866,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_02.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,5,173.6125,174.56875,-42.8046875,-42.1171875,Y,0,0,Y,103,89,vertical,none,5.06178,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_02.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,6,173.6125,174.56875,-42.1171875,-41.4375,Y,0,0,Y,103,88,vertical,none,5.88423,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_03.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,6,173.6125,174.56875,-42.1171875,-41.4296875,Y,0,0,Y,103,89,vertical,none,6.20994,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L3_03.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,7,172.79921875,173.03828125,-42.66015625,-42.453125,Y,0,0,Y,103,107,vertical,none,0.79607,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_00.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,7,172.796875,173.040625,-42.662109375,-42.451171875,Y,0,0,Y,105,109,vertical,none,1.0523,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_00.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,8,173.03828125,173.27734375,-42.66015625,-42.453125,Y,0,0,Y,103,107,vertical,none,4.1742,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_01.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,8,173.040625,173.284375,-42.662109375,-42.451171875,Y,0,0,Y,105,109,vertical,none,4.42395,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_01.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,9,173.03828125,173.27734375,-42.453125,-42.24609375,Y,0,0,Y,103,107,vertical,none,1.30436,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_02.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,9,173.040625,173.284375,-42.451171875,-42.240234375,Y,0,0,Y,105,109,vertical,none,1.01761,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_02.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,10,173.27734375,173.51640625,-42.66015625,-42.453125,Y,0,0,Y,103,107,vertical,none,1.49257,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_03.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,10,173.284375,173.528125,-42.662109375,-42.451171875,Y,0,0,Y,105,109,vertical,none,1.67923,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_03.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,11,173.27734375,173.51640625,-42.453125,-42.24609375,Y,0,0,Y,103,107,vertical,none,1.35842,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_04.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,11,173.284375,173.528125,-42.451171875,-42.240234375,Y,0,0,Y,105,109,vertical,none,1.61733,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_04.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,12,173.27734375,173.51640625,-42.24609375,-42.0390625,Y,0,0,Y,103,107,vertical,none,0.31935,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_05.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,12,173.284375,173.528125,-42.240234375,-42.029296875,Y,0,0,Y,105,109,vertical,none,0.26431,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_05.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,13,173.51640625,173.75546875,-42.66015625,-42.453125,Y,0,0,Y,103,107,vertical,none,1.51531,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_06.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,13,173.528125,173.771875,-42.662109375,-42.451171875,Y,0,0,Y,105,109,vertical,none,1.68479,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_06.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,14,173.51640625,173.75546875,-42.453125,-42.24609375,Y,0,0,Y,103,107,vertical,none,1.49902,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_07.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,14,173.528125,173.771875,-42.451171875,-42.240234375,Y,0,0,Y,105,109,vertical,none,1.30051,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_07.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,15,173.51640625,173.75546875,-42.24609375,-42.0390625,Y,0,0,Y,103,107,vertical,none,2.92542,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_08.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,15,173.528125,173.771875,-42.240234375,-42.029296875,Y,0,0,Y,105,109,vertical,none,4.04026,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_08.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,16,173.51640625,173.75546875,-42.0390625,-41.83203125,Y,0,0,Y,103,107,vertical,none,1.3603,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_09.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,16,173.528125,173.771875,-42.029296875,-41.818359375,Y,0,0,Y,105,109,vertical,none,1.78356,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_09.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,17,173.75546875,173.99453125,-42.66015625,-42.453125,Y,0,0,Y,103,107,vertical,none,0.19771,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_10.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,17,173.771875,174.015625,-42.451171875,-42.240234375,Y,0,0,Y,105,109,vertical,none,1.02582,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_10.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,18,173.75546875,173.99453125,-42.453125,-42.24609375,Y,0,0,Y,103,107,vertical,none,1.58512,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_11.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,18,173.771875,174.015625,-42.240234375,-42.029296875,Y,0,0,Y,105,109,vertical,none,6.69764,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_11.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,19,173.75546875,173.99453125,-42.24609375,-42.0390625,Y,0,0,Y,103,107,vertical,none,5.98961,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_12.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,19,173.771875,174.015625,-42.029296875,-41.818359375,Y,0,0,Y,105,109,vertical,none,2.84078,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_12.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,20,173.75546875,173.99453125,-42.0390625,-41.83203125,Y,0,0,Y,103,107,vertical,none,2.96025,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_13.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,20,174.015625,174.259375,-42.029296875,-41.818359375,Y,0,0,Y,105,109,vertical,none,5.45075,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_13.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,21,173.99453125,174.23359375,-42.24609375,-42.0390625,Y,0,0,Y,103,107,vertical,none,0.35767,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_14.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,21,174.015625,174.259375,-41.818359375,-41.61328125,Y,0,0,Y,105,106,vertical,none,2.00976,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_14.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,22,173.99453125,174.23359375,-42.0390625,-41.83203125,Y,0,0,Y,103,107,vertical,none,3.09505,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_15.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,22,174.259375,174.4984375,-42.029296875,-41.818359375,Y,0,0,Y,103,109,vertical,none,2.92135,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_15.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,23,173.99453125,174.23359375,-41.83203125,-41.626953125,Y,0,0,Y,103,106,vertical,none,2.91411,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_16.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
-20170601,0,Y,4,23,174.259375,174.4984375,-41.818359375,-41.61328125,Y,0,0,Y,103,106,vertical,none,1.91226,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_16.csv,"Event: Kaikoura earthquake,  14 November 2016
- Source model: Geodetic source model, based on GPS & InSAR data; elastic half-space assumption; 
- Version: Model 001, 21 February 2017
+20170601,0,Y,3,24,174.23359375,174.46796875,-42.0390625,-41.83203125,Y,0,0,Y,101,107,vertical,none,1.1035,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_17.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
+"
+20170601,0,Y,3,25,174.23359375,174.46796875,-41.83203125,-41.626953125,Y,0,0,Y,101,106,vertical,none,1.46765,llgrid,step,2016-11-14,-1.0,2016-11-14,0,0,grid_ka_20161114_V_L4_18.csv,"Event: Kaikoura earthquake,  14 November 2016
+ Source model: Geodetic source model, based on GPS, InSAR, and LiDAR data; elastic half-space assumption; 
+ Version: Model 002, 23 June 2017
 "
