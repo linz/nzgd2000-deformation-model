@@ -22,3 +22,7 @@ can be used to calculate the deformation and apply it to coordinates.
 This source code is in the [linz/python-linz-deformationmodel](https://github.com/linz/python-linz-deformationmodel) repository.  LINZ geodetic software such as SNAP and concord use a binary encoded
 version of the deformation model.  The code for building this is in the
 [linz/python-linz-geodeticgrid](https://github.com/linz/python-linz-geodeticgrid) repository.
+
+## Maintenance
+
+Future releases of the deformation model will be built in branches of this repository (eg 20170601) which will be pulled into the master branch when they are published, so that the master branch will hold the current published version of the deformation model.
