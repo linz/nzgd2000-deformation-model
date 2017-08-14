@@ -1,7 +1,10 @@
-This is version 20170601 of the deformation model
+This is version 20160701 of the deformation model
 
-This version adds the co-seismic and some post-seismic deformation from 
-the November 14 2016 Kaikoura earthquake.
+This version adds the deformation from the 14 February 2016 (Valentines
+Day) Christchurch earthquake.
+
+It changes the patches for the 2013 Cook Strait and Lake Grassmere 
+from forward to reverse patches.
 
 See NZGD2000DeformationModelFormat.pdf in the documentation directory for 
 details of the deformation model format and how it is calculated.  
