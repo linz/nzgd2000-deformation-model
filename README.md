@@ -12,6 +12,9 @@ The official releases are published at http://apps.linz.govt.nz/ftp/geodetic/
 The files and directory structure of the zip file are held in the .src directory
 of this repository.  
 
+The deformation model in the master branch will always reflect the current release
+of the NZGD2000. Updated versions will be built in separate branches until they
+are released.
 
 The zip file contains [documentation](./src/documentation/NZGD2000DeformationModelFormat.pdf) 
 describing the components of the model and how the deformation is
