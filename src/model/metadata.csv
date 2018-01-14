@@ -4,7 +4,7 @@ description,"New Zealand Deformation Model.
 Defines the secular model (National Deformation Model)
 and patches for significant deformation events since 2000.
 "
-version,20160701
+version,20171201
 datum_code,NZGD2000
 datum_name,New Zealand Geodetic Datum 2000
 datum_epoch,2000-01-01
