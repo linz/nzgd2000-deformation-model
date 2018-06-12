@@ -1,7 +1,8 @@
-This is version 20171201 of the deformation model
+This is version 20180701 of the deformation model
 
-This version adds the co-seismic and some post-seismic deformation from 
-the November 14 2016 Kaikoura earthquake.
+This version updates the the November 14 2016 Kaikoura earthquake patch
+with reverse patch refinements to reflect the difference between modelled
+and observed displacements.
 
 See NZGD2000DeformationModelFormat.pdf in the documentation directory for 
 details of the deformation model format and how it is calculated.  
