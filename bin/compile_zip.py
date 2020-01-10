@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import os
 import os.path
@@ -6,22 +6,22 @@ import requests
 import re
 import shutil
 import tempfile
-from StringIO import StringIO
+from io import BytesIO
 from zipfile import ZipFile, ZIP_DEFLATED
 
 
 def get_source_modules(repo,toolsdir,files=None):
-    print "Retrieving",repo
+    print("Retrieving",repo)
     url='https://github.com/linz/'+repo+'/zipball/master'
     r=requests.get(url)
-    z=ZipFile(StringIO(r.content))
+    z=ZipFile(BytesIO(r.content))
     for n in z.namelist():
         if n.endswith('/'):
             continue
         m = re.match(r'^[\w\-]*(\/LINZ\/.+)$',n)
         if m:
             filepath=m.group(1)
-            print "Extracting "+filepath
+            print("Extracting "+filepath)
             tgtfile=toolsdir+filepath
             path=os.path.dirname(tgtfile)
             if not os.path.isdir(path):
@@ -35,7 +35,7 @@ def get_source_modules(repo,toolsdir,files=None):
                 continue
             # If selecting files then skip unmatched files
             if files and filename not in files:
-                print "Omitting",filename
+                print("Omitting",filename)
                 continue
             with open(tgtfile,'wb') as tf:
                 tf.write(z.read(n))
@@ -52,7 +52,7 @@ def create_python_program(module,toolsdir,basemodule='LINZ.DeformationModel',pro
     # distribution.
     basemodule=basemodule[5:]
 
-    src='''#!/usr/bin/python
+    src='''#!/usr/bin/python3
         import sys
         import os.path
         sys.path.insert(1,os.path.join(os.path.dirname(os.path.abspath(__file__)),'LINZ'))
@@ -66,7 +66,7 @@ def create_python_program(module,toolsdir,basemodule='LINZ.DeformationModel',pro
     progfile=toolsdir+'/'+progname+'.py'
     with open(progfile,'w') as pyf:
         pyf.write(src)
-    os.chmod(progfile,0755)
+    os.chmod(progfile,0o755)
 
 def build_tools( toolsdir ):
     if not os.path.isdir(toolsdir):
@@ -95,8 +95,8 @@ def add_tree_to_zip( basedir, zf ):
 basedir=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 tempdir=tempfile.mkdtemp()
 try:
-    print "Basedir:",basedir
-    print "Tempdir:",tempdir
+    print("Basedir:",basedir)
+    print("Tempdir:",tempdir)
      
     toolssrc=tempdir+'/src'
     toolsdir=toolssrc+'/tools'
