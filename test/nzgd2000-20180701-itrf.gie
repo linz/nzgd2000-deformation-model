@@ -1,0 +1,67 @@
+
+============================================================
+Test: NZGD2000(20180701) to ITRF
+============================================================
+<gie-strict>
+
+# ITRF96
+
+use_proj4_init_rules true
+operation proj=pipeline step init=epsg:4959 inv step init=epsg:7907
+tolerance 0.001
+
+accept 173 -41 0 2016.5
+expect 172.999999380  -40.999994020     0.0013  2016.5
+roundtrip=1
+
+# ITRF97
+
+use_proj4_init_rules true
+operation proj=pipeline step init=epsg:4959 inv step init=epsg:7908
+tolerance 0.001
+
+accept 173 -41 0 2016.5
+expect 172.999999249  -40.999994395     0.0702  2016.5
+roundtrip=1
+
+# ITRF2000
+
+use_proj4_init_rules true
+operation proj=pipeline step init=epsg:4959 inv step init=epsg:7909
+tolerance 0.001
+
+accept 173 -41 0 2016.5
+expect 172.999999084  -40.999994041     0.0346  2016.5
+roundtrip=1
+
+# ITRF2005
+
+use_proj4_init_rules true
+operation proj=pipeline step init=epsg:4959 inv step init=epsg:7910
+tolerance 0.001
+
+accept 173 -41 0 2016.5
+expect 172.999999089  -40.999993819    -0.0021  2016.5
+roundtrip=1
+
+# ITRF2008
+
+use_proj4_init_rules true
+operation proj=pipeline step init=epsg:4959 inv step init=epsg:7911
+tolerance 0.001
+
+accept 173 -41 0 2016.5
+expect 172.999999083  -40.999993769    -0.0089  2016.5
+roundtrip=1
+
+# ITRF2014
+
+use_proj4_init_rules true
+operation proj=pipeline step init=epsg:4959 inv step init=epsg:7912
+tolerance 0.001
+
+accept 173 -41 0 2016.5
+expect 172.999999108  -40.999993773    -0.0079  2016.5
+roundtrip=1
+
+</gie-strict>

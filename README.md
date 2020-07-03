@@ -1,5 +1,7 @@
 # nzgd2000-deformation-model
 
+**WARNING** Contents of this master branch of this repository may accessed by LINZ geodetic processes.  Ensure all data is correct before updating the master branch.
+
 The NZGD2000 deformation model is used to transform coordinates 
 between ITRF96 and NZGD2000.  
 
