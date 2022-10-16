@@ -9,7 +9,7 @@ The deformation model comprises a set of .CSV files defining components such as
 the national velocity model, and the "patches" which represent deformation due
 to earthquakes.  When it is published these are compiled into a single .zip file. 
 
-The official releases are published at http://apps.linz.govt.nz/ftp/geodetic/
+The official releases are published at http://www.geodesy.linz.govt.nz/download/nzgd2000/
 
 The files and directory structure of the zip file are held in the .src directory
 of this repository.  
@@ -20,7 +20,7 @@ are released.
 
 The zip file contains [documentation](./src/documentation/NZGD2000DeformationModelFormat.pdf) 
 describing the components of the model and how the deformation is
-calculated from them for any given time or place.
+calculated from them at any given time and location.
 
 The zip file also contains a reference implementation in python that 
 can be used to calculate the deformation and apply it to coordinates.
